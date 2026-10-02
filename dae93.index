@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Epstein | Finance Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #222; line-height: 1.6; }
+    header { text-align: center; padding: 40px 0; border-bottom: 2px solid #eee; }
+    h1 { margin-bottom: 5px; }
+    h2 { color: #cc0033; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 40px; }
+    .skills { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+    .skills li { background: #cc0033; color: white; padding: 6px 14px; border-radius: 20px; }
+    .project { background: #f6f8fa; padding: 15px; border-radius: 8px; margin-bottom: 15px; }
+    .project a, header a { color: #cc0033; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>David Epstein</h1>
+    <p>Finance Major | Rutgers University</p>
+    <p><a href="mailto:epsteind62@gmail.com">epsteind62@gmail.com</a></p>
+  </header>
+
+  <section>
+    <h2>Personal Statement</h2>
+    <p>I am a Rutgers finance major who combines financial modeling and data analysis to turn numbers into clear, confident investment and business decisions.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Financial Modeling</li>
+      <li>Valuation (DCF &amp; Comps)</li>
+      <li>Financial Statement Analysis</li>
+      <li>Advanced Excel</li>
+      <li>Data Analysis</li>
+      <li>Portfolio Management</li>
+      <li>PowerPoint Presentations</li>
+      <li>Teamwork &amp; Communication</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>DCF Valuation Model</h3>
+      <p>Built a discounted cash flow model in Excel to value a publicly traded company, projecting free cash flow, estimating WACC, and running sensitivity analysis on growth and discount rate assumptions.</p>
+      <a href="https://github.com/dae93-ship-it/dcf-valuation-model">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>Stock Portfolio Analysis</h3>
+      <p>Analyzed a diversified stock portfolio by calculating returns, volatility, and correlation, then compared performance against the S&amp;P 500 to evaluate risk-adjusted results.</p>
+      <a href="https://github.com/dae93-ship-it/portfolio-analysis">View Code</a>
+    </div>
+
+    <div class="project">
+      <h3>Company Financial Ratio Report</h3>
+      <p>Evaluated a company's liquidity, profitability, and leverage using ratio analysis of its income statement, balance sheet, and cash flow statement, and summarized findings in a short investment recommendation.</p>
+      <a href="https://github.com/dae93-ship-it/financial-ratio-report">View Report</a>
+    </div>
+  </section>
+
+</body>
+</html>
